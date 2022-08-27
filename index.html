@@ -27,13 +27,16 @@
         font-size: 25px;
         border-radius: 255px;
         cursor: pointer;
-        box-shadow: black;
     }
     .page_background{
         background-image: url("background.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
+        width: 105%; 
+        max-width: 1920px; 
+        min-width: 100px; 
+        overflow: hidden;
     }
     .umrah:hover{
         background-color: rgb(245, 214, 150);
@@ -45,17 +48,20 @@
     </style>
 </head>
 <body>
-    <div class = "page_background">
-    <ul>
-    <li><a href="all_umrah_options.html">
-        <button class="umrah">Umrah</button></li>
+<div class = "page_background">
+    <a href="all_umrah_options.html">
+        <button class="umrah">Umrah</button>
     </a>
     <br>
     <br>
-    <li><a href="all_hajj_options.html">
-        <button class = "hajj">Hajj</button></li>
+    <a href="all_hajj_options.html">
+        <button class = "hajj">Hajj</button>
     </a>
-    </ul>
+    <br>
+    <br>
+    <a href="credits.html">
+        <button class = "hajj">Credits</button>
+    </a>
 </div>
 </body>
 </html>
